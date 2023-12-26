@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Famous Quotes</string>
+    <string name="quote1">The greatest glory in living lies not in never falling,
+                           but in rising every time we fall. -Nelson Mandela</string>
+    <string name="quote2">The way to get started is to quit talking and begin doing. -Walt Disney</string>
+    <string name="quote3">Spread love everywhere you go. Let no one ever come to you without leaving happier. -Mother Teresa</string>
+    <string name="quote4">If life were predictable it would cease to be life, and be without flavor. -Eleanor Roosevelt</string>
+    <string name="quote5">If you look at what you have in life, you will always have more.
+                          If you look at what you do not have in life,you will never have enough. -Oprah Winfrey</string>
+    <string name="quote6">If you set your goals ridiculously high and it is a failure, you will fail above everyone else\'s success.
+                           -James Cameron</string>
+    <string name="quote7">Life is what happens when you are busy making other plans. -John Lennon</string>
+    <string name="quote8">When you reach the end of your rope, tie a knot in it and hang on. -Franklin D. Roosevelt</string>
+    <string name="quote9">Always remember that you are absolutely unique. Just like everyone else. -Margaret Mead</string>
+    <string name="quote10">The future belongs to those who believe in the beauty of their dreams. -Eleanor Roosevelt</string>
+    <string name="quote11">Tell me and I forget. Teach me and I remember. Involve me and I learn. -Benjamin Franklin</string>
+    <string name="quote12">The best and most beautiful things in the world cannot be seen or even touched —
+                            they must be felt with the heart. -Helen Keller</string>
+    <string name="quote13">It is during our darkest moments that we must focus to see the light. -Aristotle</string>
+    <string name="quote14">Whoever is happy will make others happy too. -Anne Frank</string>
+    <string name="quote15">Do not go where the path may lead, go instead where there is no path and leave a trail.
+                            -Ralph Waldo Emerson</string>
+    <string name="quote16">Do not judge each day by the harvest you reap but by the seeds that you plant.
+                            -Robert Louis Stevenson</string>
+    <string name="quote17">You will face many defeats in life, but never let yourself be defeated. -Maya Angelou</string>
+    <string name="quote18">You have brains in your head. You have feet in your shoes. You can steer yourself any
+                            direction you choose. -Dr. Seuss</string>
+    <string name="quote19">Never let the fear of striking out keep you from playing the game. -Babe Ruth</string>
+    <string name="quote20">Life is never fair, and perhaps it is a good thing for most of us that it is not. -Oscar Wilde</string>
+
+</resources>
