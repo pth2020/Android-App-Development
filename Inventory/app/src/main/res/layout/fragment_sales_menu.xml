@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sales.SalesMenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@drawable/ic_background1">
+
+            <TextView
+                android:layout_width="253dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/anonymous_pro"
+                android:text="Sales Menu"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/white"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonByDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sales by date" />
+
+        <Button
+            android:id="@+id/buttonByItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sales by Items" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

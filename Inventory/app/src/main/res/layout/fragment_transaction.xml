@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sales.TransactionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/item_name"
+                android:layout_width="203dp"
+                android:layout_height="48dp"
+                android:text="Banana"
+                android:layout_marginStart="10dp"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/item_sold_label"
+                android:layout_width="200dp"
+                android:layout_marginEnd="10dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/item_sold_req">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/items_sold"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:inputType="number"
+                    android:singleLine="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/salesDate"
+                android:layout_width="374dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Jan 1, 2023"
+                android:textAlignment="textStart"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/salesTransactionBtn"
+                android:layout_width="374dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Commit Sales" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>
